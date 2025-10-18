@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: AI Bot Tracker
- * Plugin URI: https://webdesignerk.com/ai-bot-tracker
+ * Plugin URI: https://webdesignerk.com/wordpress/plugins/ai-bot-tracker-wordpress/
  * Description: Rastrea y clasifica bots de IA que visitan tu sitio WordPress. Detecta GPTBot, ClaudeBot, Google-Extended y más de 30 bots.
- * Version: 1.0.0
+ * Version: 1.2.0
  * Author: Konstantin Koshkarev
  * Author URI: https://webdesignerk.com
  * License: MIT
@@ -80,7 +80,7 @@ class AI_Bot_Tracker {
 
     private $db_table;
     private $blocked_bots_table;
-    private $version = '1.1.0';
+    private $version = '1.2.0';
 
     public function __construct() {
         global $wpdb;
@@ -1630,7 +1630,7 @@ class AI_Bot_Tracker {
             </table>
 
             <div class="footer">
-                <p>Reporte generado por AI Bot Tracker v<?php echo $this->version; ?></p>
+                <p>Reporte generado por <a href="https://webdesignerk.com/wordpress/plugins/ai-bot-tracker-wordpress/" target="_blank"><strong>AI Bot Tracker v<?php echo $this->version; ?></strong></a></p>
                 <p>Sitio: <?php echo get_bloginfo('name'); ?> (<?php echo get_site_url(); ?>)</p>
                 <p>Plugin desarrollado por <strong>Konstantin Koshkarev</strong> - <a href="https://webdesignerk.com" target="_blank">webdesignerk.com</a></p>
             </div>
@@ -2251,6 +2251,10 @@ class AI_Bot_Tracker {
                         <td><a href="https://webdesignerk.com" target="_blank">webdesignerk.com</a></td>
                     </tr>
                     <tr>
+                        <th>Más Info:</th>
+                        <td><a href="https://webdesignerk.com/wordpress/plugins/ai-bot-tracker-wordpress/" target="_blank">AI Bot Tracker - Página del Plugin</a></td>
+                    </tr>
+                    <tr>
                         <th>Bots Detectados:</th>
                         <td><?php echo count($this->bots); ?> bots conocidos</td>
                     </tr>
@@ -2285,21 +2289,6 @@ class AI_Bot_Tracker {
                 <?php endforeach; ?>
             </div>
 
-            <div class="ai-bot-section">
-                <h2>📖 Documentación y Soporte</h2>
-                <p>Para más información sobre cómo usar este plugin:</p>
-                <ul>
-                    <li><strong>Sitio Web del Desarrollador:</strong> <a href="https://webdesignerk.com" target="_blank">webdesignerk.com</a></li>
-                    <li><strong>Documentación del Plugin:</strong> Ver archivo README.md incluido en el plugin</li>
-                    <li><strong>Soporte:</strong> Contacta con Konstantin Koshkarev a través de <a href="https://webdesignerk.com" target="_blank">webdesignerk.com</a></li>
-                </ul>
-
-                <div style="margin-top: 20px; padding: 15px; background: #f0f6fc; border-left: 4px solid #2271b1;">
-                    <h3 style="margin-top: 0;">👨‍💻 Sobre el Desarrollador</h3>
-                    <p><strong>Konstantin Koshkarev</strong> - Especialista en desarrollo WordPress y soluciones web personalizadas.</p>
-                    <p>🌐 Visita <a href="https://webdesignerk.com" target="_blank"><strong>webdesignerk.com</strong></a> para más plugins y servicios de desarrollo.</p>
-                </div>
-            </div>
         </div>
         <?php
     }

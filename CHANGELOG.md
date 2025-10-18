@@ -4,6 +4,43 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 
 ---
 
+## [1.2.0] - 2025-10-18
+
+### 🎨 Mejoras de UI
+
+#### **Gráficos en Exportación HTML**
+- ✅ Chart.js v4.4.0 integrado en exportación HTML
+- ✅ Gráfico de dona de categorías en HTML exportado
+- ✅ Gráfico de barras de Top 10 Bots en HTML exportado
+- ✅ Gráfico de línea de tendencia temporal en HTML exportado
+- ✅ Renderizado client-side (no requiere servidor)
+- ✅ CSS optimizado para impresión/PDF
+- ✅ Tooltips interactivos en HTML exportado
+
+#### **Limpieza de Interfaz**
+- ✅ Eliminada sección "Documentación y Soporte" de la página de configuración
+- ✅ Eliminada sección "Sobre el Desarrollador" de la página de configuración
+- ✅ Interfaz más limpia y profesional en ajustes
+
+### 🔧 Cambios Técnicos
+
+- ✅ Query optimizado para tendencia temporal (`visits_by_day`)
+- ✅ Canvas elements con dimensiones fijas para consistencia
+- ✅ JavaScript con event listener `window.load` para garantizar carga de Chart.js
+- ✅ Grid CSS responsive para layout de gráficos (2 columnas + 1 full width)
+- ✅ Colores consistentes entre dashboard y exportación
+- ✅ Plugin URI actualizado a URL completa: `https://webdesignerk.com/wordpress/plugins/ai-bot-tracker-wordpress/`
+- ✅ Enlace agregado al nombre del plugin en footer de exportación HTML
+
+### 📊 Estadísticas
+
+- **Versión**: 1.1.0 → 1.2.0
+- **Líneas de código**: 2,294 (-18 desde v1.1.0)
+- **Mejoras visuales**: 3 gráficos agregados a exportación HTML
+- **Secciones eliminadas**: 2 (Documentación y Sobre el Desarrollador)
+
+---
+
 ## [1.1.0] - 2025-10-18
 
 ### 🎉 Nuevas Características
@@ -143,7 +180,7 @@ Bot Tracker
 - **Versión**: 1.0.0 → 1.1.0
 - **Autor**: Konstantin Koshkarev
 - **Web**: https://webdesignerk.com
-- **Plugin URI**: https://webdesignerk.com/ai-bot-tracker
+- **Plugin URI**: https://webdesignerk.com/wordpress/plugins/ai-bot-tracker-wordpress/
 
 ---
 
@@ -189,7 +226,7 @@ Bot Tracker
 
 ## Próximas Versiones (Roadmap)
 
-### [1.2.0] - Planificado
+### [1.3.0] - Planificado
 - [ ] Rate limiting automático basado en recurrencia
 - [ ] Alertas por email cuando bot bloqueado intenta acceder
 - [ ] Whitelist de IPs específicas
@@ -212,6 +249,27 @@ Bot Tracker
 ---
 
 ## Notas de Actualización
+
+### Desde 1.1.0 → 1.2.0
+
+#### **Cambios Visuales**
+La actualización mejora la exportación HTML y limpia la interfaz de configuración:
+1. Gráficos Chart.js ahora se incluyen en exportación HTML
+2. Secciones de documentación eliminadas de la configuración
+
+**No se pierden datos**. Sin cambios en la estructura de base de datos.
+
+#### **Compatibilidad**
+- ✅ Compatible con WordPress 5.0+
+- ✅ Compatible con PHP 7.0+
+- ✅ Compatible con todos los navegadores modernos
+- ✅ Compatible con instalaciones existentes de v1.0.0 y v1.1.0
+
+#### **Instrucciones de Actualización**
+1. Descargar nueva versión
+2. Reemplazar archivos del plugin
+3. No es necesario desactivar/activar
+4. Sin cambios en BD
 
 ### Desde 1.0.0 → 1.1.0
 

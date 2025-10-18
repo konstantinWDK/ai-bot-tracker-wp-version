@@ -4,6 +4,8 @@ Plugin completo para rastrear y clasificar bots de IA que visitan tu sitio WordP
 
 **Desarrollado por:** Konstantin Koshkarev
 **Sitio Web:** [webdesignerk.com](https://webdesignerk.com)
+**Plugin URL:** [AI Bot Tracker](https://webdesignerk.com/wordpress/plugins/ai-bot-tracker-wordpress/)
+**Versión:** 1.2.0
 
 ## 🚀 Instalación Rápida
 
