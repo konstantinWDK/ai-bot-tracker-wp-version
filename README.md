@@ -2,6 +2,9 @@
 
 Plugin completo para rastrear y clasificar bots de IA que visitan tu sitio WordPress.
 
+**Desarrollado por:** Konstantin Koshkarev
+**Sitio Web:** [webdesignerk.com](https://webdesignerk.com)
+
 ## 🚀 Instalación Rápida
 
 ### Método 1: Descarga Manual (Recomendado)
@@ -290,9 +293,16 @@ Sí, funciona en cualquier hosting que soporte WordPress.
 ¿Necesitas ayuda?
 
 1. Consulta este README
-2. Lee la [documentación completa](../README.md)
-3. Revisa las [preguntas frecuentes](../FAQ.md)
-4. Abre un issue en GitHub
+2. Visita [webdesignerk.com](https://webdesignerk.com)
+3. Contacta con el desarrollador: Konstantin Koshkarev
+
+---
+
+## 👨‍💻 Autor
+
+**Konstantin Koshkarev**
+- Sitio Web: [webdesignerk.com](https://webdesignerk.com)
+- Especializado en desarrollo WordPress y soluciones web personalizadas
 
 ---
 
